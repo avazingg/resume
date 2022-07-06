@@ -1,0 +1,45 @@
+.logo-brsu {
+  max-width: 150px;
+  max-height: 150px;
+  padding-top: 10px;
+
+}
+
+.education__place_logo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-light-s;
+  border-radius: 100px;
+
+}
+
+.layout-2-column {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.education__place {
+  max-width: 700px;
+  text-align: center;
+  padding: 10px;
+  background-color: $color-darker-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education__place_name {
+  max-width: 200px;
+}
+
+.education__place_faculty {
+  max-width: 150px;
+}
+
+.education__place:first-child {
+  margin-left: 80px;
+}

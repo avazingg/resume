@@ -28,6 +28,15 @@ h2 {
   color: rgb(0, 71, 187);
 }
 
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: 0.07em;
+  line-height: 3.5rem;
+  color: #FAFAFA;
+}
+
 a {
   font-family: "Poppins", sans-serif;
   font-size: 4.5rem;
@@ -196,8 +205,62 @@ p {
   display: inline-block;
   height: 5px;
   width: 40px;
-  background-color: #80a4cb;
+  background-color: rgb(73, 94, 117);
   margin: 0 5px;
+}
+
+.skills__types {
+  display: flex;
+  justify-content: start;
+  margin-left: 170px;
+}
+
+.skills__types:last-child {
+  margin-top: 40px;
+}
+
+.logo-brsu {
+  max-width: 150px;
+  max-height: 150px;
+  padding-top: 10px;
+}
+
+.education__place_logo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FAFAFA;
+  border-radius: 100px;
+}
+
+.layout-2-column {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.education__place {
+  max-width: 700px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(73, 94, 117);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education__place_name {
+  max-width: 200px;
+}
+
+.education__place_faculty {
+  max-width: 150px;
+}
+
+.education__place:first-child {
+  margin-left: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

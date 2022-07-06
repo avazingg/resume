@@ -42,6 +42,32 @@
   display: inline-block;
   height: 5px;
   width: 40px;
-  background-color: $color-light-blue;
+  background-color: $color-darker-blue;
   margin: 0 5px;
+}
+
+// .half-full-line {
+//   display: inline-block;
+//   height: 5px;
+//   width: 20px;
+//   background-color: $color-light-s;
+//   margin: 0 0;
+// }
+
+// .half-empty-line {
+//   display: inline-block;
+//   height: 5px;
+//   width: 20px;
+//   background-color: $color-darker-blue;
+//   margin: 0 0;
+// }
+
+.skills__types {
+  display: flex;
+  justify-content: start;
+  margin-left: 170px;
+}
+
+.skills__types:last-child {
+  margin-top: 40px;
 }
