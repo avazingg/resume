@@ -46,7 +46,7 @@
         <h2 class="about__content_info">I’m 22. I live in Brest, Belarus. I’m interested in Web development </h2>
         <P class="about__content_skills">Got some skills in HTML, CSS, JavaScript & typeScript </P>
         <div class="save-resume__button">
-          <button class="button button__bordered">download resume.pdf</button>
+          <button class="button button__colored">download resume.pdf</button>
         </div>
       </div>
     </div>
@@ -60,50 +60,51 @@
       <!-- <div class="skills__types">
         <h3 class="marketable__text">Marketable skills</h3>
       </div> -->
-      <div class="skills__container">
-        <div class="skill">
-          <p class="skills__name">Git</p>
-          <span class="full-line"></span>
-          <span class="full-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
+      <div class="skills-2-column">
+        <div class="skills__container">
+          <div class="skill">
+            <p class="skills__name">Git</p>
+            <span class="full-line"></span>
+            <span class="full-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+          </div>
+          <div class="skill">
+            <p class="skills__name">HTML</p>
+            <span class="full-line"></span>
+            <span class="full-line"></span>
+            <span class="full-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+          </div>
+          <div class="skill">
+            <p class="skills__name">CSS</p>
+            <span class="full-line"></span>
+            <span class="full-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+          </div>
+          <div class="skill">
+            <p class="skills__name">JavaScript</p>
+            <span class="full-line"></span>
+            <span class="full-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+          </div>
+          <div class="skill">
+            <p class="skills__name">TypeScript</p>
+            <span class="full-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+            <span class="empty-line"></span>
+          </div>
         </div>
-        <div class="skill">
-          <p class="skills__name">HTML</p>
-          <span class="full-line"></span>
-          <span class="full-line"></span>
-          <span class="full-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-        </div>
-        <div class="skill">
-          <p class="skills__name">CSS</p>
-          <span class="full-line"></span>
-          <span class="full-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-        </div>
-        <div class="skill">
-          <p class="skills__name">JavaScript</p>
-          <span class="full-line"></span>
-          <span class="full-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-        </div>
-        <div class="skill">
-          <p class="skills__name">TypeScript</p>
-          <span class="full-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-          <span class="empty-line"></span>
-        </div>
-      </div>
 
-      <!-- <div class="skills__other">
+        <!-- <div class="skills__other">
         <h3 class="skills__types">Other skills</h3>
       </div>
       <div class="skills__container">
@@ -148,7 +149,19 @@
           <span class="empty-line"></span>
         </div>
       </div> -->
-
+        <div class="other__skills">
+          <h3 class="other__skills-text">Also i have experience with:</h3>
+          <ul class="other__skills_list">
+            <li class="other__skills_list-link">Adaptive Layout </li>
+            <li class="other__skills_list-link">ECMAScript(ec6)</li>
+            <li class="other__skills_list-link">sass</li>
+            <li class="other__skills_list-link">ESlint</li>
+            <li class="other__skills_list-link">Webpack</li>
+            <li class="other__skills_list-link">Figma</li>
+            <li class="other__skills_list-link">PhotoShop</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -159,23 +172,40 @@
       </div>
       <div class="layout-2-column">
         <div class="education__place">
-          <div class="education__place_logo">
-            <img class="logo-brsu" src="src/brsu.png" alt="">
-          </div>
-          <h3 class="education__place_name">Brest State University named after A.S. Pushkin</h3>
+          <a href="https://www.brsu.by/">
+            <div class="education__place_logo">
+              <img class="logo-brsu" src="src/brsu.png" alt="">
+            </div>
+          </a>
+          <a href="https://www.brsu.by/">
+            <h3 class="education__place_name">Brest State University named after A.S. Pushkin</h3>
+          </a>
           <p class="education__place_faculty">Faculty of physics and mathematics. Speciality is applied mathematics</p>
           <p class="education__place_years">2017-2021</p>
         </div>
 
         <div class="education__place">
           <div class="education__place_logo">
-            <img src="#" alt="">
+            <a href="https://rs.school/">
+              <img class="logo-rs" src="src/rs-school.png" alt="">
+            </a>
           </div>
-          <h3 class="education__place_name"></h3>
-          <p class="education__place_faculty"></p>
-          <p class="education__place_years"></p>
+          <a href="https://rs.school/">
+            <h3 class="education__place_name">The Rolling Scopes school</h3>
+          </a>
+          <p class="education__place_faculty">FrontEnd course</p>
+          <p class="education__place_years">in progress...</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="info__wrapper">
+      <div class="info__title">
+        <h2 class="info__title-text">Info&facts</h2>
+      </div>
+
     </div>
   </section>
 </body>
