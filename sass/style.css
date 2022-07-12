@@ -6,6 +6,7 @@ html {
 
 body {
   background: linear-gradient(to top, #cce0f3 4%, #80a4cb 88%);
+  background: linear-gradient(to bottom right, #ED8A28, rgb(0, 71, 187));
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   margin: 0px;
@@ -46,6 +47,9 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+a:active {
+  text-decoration: none;
+}
 
 p {
   font-family: "Poppins", sans-serif;
@@ -84,7 +88,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0 60px 0;
+  padding: 20px 0;
+  border: 2px solid black;
+  position: sticky;
+  top: 0;
 }
 
 .promo {
@@ -125,7 +132,7 @@ ul {
   justify-content: start;
   gap: 20rem;
   align-items: center;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .about__container {
@@ -187,7 +194,7 @@ ul {
 
 .skills__title {
   margin: 0px;
-  color: #FAFAFA;
+  color: #ED8A28;
   font-size: 4.2rem;
   padding-bottom: 40px;
 }
@@ -211,7 +218,7 @@ ul {
   display: inline-block;
   height: 5px;
   width: 40px;
-  background-color: #FAFAFA;
+  background-color: #ED8A28;
   margin: 0 5px;
 }
 
@@ -219,7 +226,7 @@ ul {
   display: inline-block;
   height: 5px;
   width: 40px;
-  background-color: rgb(92, 118, 145);
+  background-color: #FAFAFA;
   margin: 0 5px;
 }
 
@@ -251,8 +258,13 @@ ul {
   justify-content: center;
 }
 
+li::marker {
+  color: #ED8A28;
+}
+
 .education__wrapper {
   padding: 50px 0;
+  background: to bottom right;
 }
 
 .education__title {
@@ -265,6 +277,7 @@ ul {
   font-size: 4.2rem;
   margin: 0;
   padding-bottom: 40px;
+  color: #FAFAFA;
 }
 
 .logo-brsu {
@@ -303,7 +316,7 @@ ul {
   max-width: 700px;
   text-align: center;
   padding: 10px;
-  background-color: rgb(92, 118, 145);
+  background-color: rgb(0, 71, 187);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,6 +356,112 @@ ul {
 }
 
 .info__title-text {
+  color: #ED8A28;
+}
+
+.info__container {
+  padding: 0 160px;
+  text-indent: 30px;
+}
+
+.info-text {
+  color: #FAFAFA;
+}
+
+.info__list {
+  color: #FAFAFA;
+  font-size: 2.4rem;
+  text-indent: 30px;
+}
+
+.portfolio__wrapper {
+  padding: 40px 0;
+}
+
+.portfolio__title-text {
+  color: #FAFAFA;
+}
+
+.portfolio__title {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow__right_img,
+.arrow__left_img {
+  background-color: #FAFAFA;
+  padding: 8px 5px;
+  border-radius: 100px;
+  width: 45px;
+  height: 40px;
+  border: 2px solid rgb(0, 71, 187);
+  cursor: pointer;
+}
+.arrow__right_img:hover,
+.arrow__left_img:hover {
+  border: 2px solid rgb(0, 71, 187);
+  background-color: #80a4cb;
+  transition: ease-in 0.3s;
+}
+
+.carousel__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+}
+
+.portfolio__project {
+  padding: 10px;
+  background-color: #FAFAFA;
+  width: 250px;
+}
+
+.portfolio__project_name {
+  background-color: rgb(0, 71, 187);
+  padding: 5px;
+}
+
+.contacts__wrapper {
+  padding: 40px 0;
+}
+
+.contacts__title {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__title-text {
+  color: #FAFAFA;
+}
+
+.contacts__promo {
+  color: #FAFAFA;
+  padding-left: 160px;
+  font-size: 2.8rem;
+  padding-bottom: 20px;
+}
+
+.conacts__logo {
+  max-width: 60px;
+}
+
+.contacts__list {
+  padding-left: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(0, 71, 187);
+}
+
+.contacts__list_link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contacts__link,
+.contacts__link:visited {
   color: #FAFAFA;
 }
 

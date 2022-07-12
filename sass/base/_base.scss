@@ -8,9 +8,13 @@
  body {
    //background: linear-gradient(to bottom left, #ccffff 0%, #cc99ff 86%);
    background: linear-gradient(to top, #cce0f3 4%, #80a4cb 88%);
+
+   background: linear-gradient(to bottom right, $color-primary, $color-panton-blue );
+
    font-size: 1.6rem;
    font-family: "Poppins", sans-serif;
    margin: 0px;
+
  }
 
  h1 {
@@ -47,6 +51,10 @@
    line-height: 3.5rem;
    cursor: pointer;
    text-decoration: none;
+
+   &:active {
+     text-decoration: none;
+   }
  }
 
  p {

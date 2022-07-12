@@ -11,7 +11,7 @@
 
 .skills__title {
   margin: 0px;
-  color: $color-light-s;
+  color: $color-primary;
   font-size: 4.2rem;
   padding-bottom: 40px;
 }
@@ -35,7 +35,7 @@
   display: inline-block;
   height: 5px;
   width: 40px;
-  background-color: $color-light-s;
+  background-color: $color-primary;
   margin: 0 5px;
 }
 
@@ -43,7 +43,7 @@
   display: inline-block;
   height: 5px;
   width: 40px;
-  background-color: $color-darker-blue;
+  background-color: $color-light-s;
   margin: 0 5px;
 }
 
@@ -91,4 +91,8 @@
   display: flex;
   justify-content: center;
 
+}
+
+li::marker {
+  color: $color-primary;
 }
